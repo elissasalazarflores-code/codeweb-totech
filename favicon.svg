@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 120" role="img" aria-label="Totech">
+  <rect x="18" y="6" width="34" height="108" rx="17" fill="#0A714E"/>
+  <rect x="18" y="6" width="34" height="95" rx="17" fill="#10BB82"/>
+  <rect x="18" y="6" width="34" height="82" rx="17" fill="#99E17A"/>
+  <circle cx="78" cy="26" r="15" fill="#99E17A"/>
+</svg>
