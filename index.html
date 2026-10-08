@@ -16,12 +16,6 @@
 
   <!-- Sprite: símbolo de marca -->
   <svg width="0" height="0" style="position:absolute" aria-hidden="true">
-    <symbol id="sym" viewBox="0 0 100 120">
-      <rect x="18" y="6" width="34" height="108" rx="17" fill="#0A714E"/>
-      <rect x="18" y="6" width="34" height="95" rx="17" fill="#10BB82"/>
-      <rect x="18" y="6" width="34" height="82" rx="17" fill="#99E17A"/>
-      <circle cx="78" cy="26" r="15" fill="#99E17A"/>
-    </symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
   </svg>
@@ -30,8 +24,7 @@
   <header class="nav" id="nav">
     <div class="nav__inner wrap">
       <a href="#inicio" class="logo" aria-label="Totech, inicio">
-        <svg class="logo__sym"><use href="#sym"/></svg>
-        <span class="logo__word">totech</span>
+        <img src="assets/logo/logotipo-blanco.svg" alt="Totech" width="132" height="35">
       </a>
       <nav class="nav__links" id="navLinks" aria-label="Principal">
         <a href="#nosotros">Nosotros</a>
@@ -370,11 +363,9 @@
   <footer class="footer">
     <div class="wrap footer__inner">
       <div class="footer__brand">
-        <a href="#inicio" class="logo logo--lg" aria-label="Totech">
-          <svg class="logo__sym"><use href="#sym"/></svg>
-          <span class="logo__word">totech</span>
+        <a href="#inicio" class="footer__logo" aria-label="Totech, inicio">
+          <img src="assets/logo/logo-vertical-tagline.svg" alt="Totech · Precisión técnica con visión humana" width="1188" height="1176">
         </a>
-        <p class="footer__tag">Precisión técnica con visión humana</p>
       </div>
       <nav class="footer__nav" aria-label="Pie de página">
         <a href="#nosotros">Nosotros</a>
